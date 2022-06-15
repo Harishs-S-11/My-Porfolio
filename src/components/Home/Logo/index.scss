@@ -1,0 +1,40 @@
+.logo-container{
+        position:absolute;
+        width: 400px;
+        z-index: 0;
+        height: 600px;
+        top: 15%;
+        right: 15%;
+        bottom: 0;
+        left: auto;
+        margin: auto;
+
+    img{
+       width: 400px;
+       position:absolute;
+
+    }
+    .solid-logo{
+        position:absolute;
+        top:auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        animation: fadeIn 1.2s 2s backwards;
+
+    }
+    .logo-animate{
+        animation: fadeInTopLeft 1.2s 1s backwards;
+
+
+    }
+    .logo-animate2{
+        animation: fadeInTopRight 1.2s 1s backwards;
+
+    }
+
+}
+
+
